@@ -1,0 +1,57 @@
+<div id="aboutMeModal" class="reveal full" data-animation-in="slide-in-right" data-animation-out="slide-out-right" data-reveal>
+  <div class="row aboutme">
+    <div class="small-2 medium-4 columns">
+    </div>
+    <div class="small-10 medium-8 columns">
+      <h1>HEEY</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+  <form data-abide novalidate>
+    <h3>Get in contact:</h3><br>
+    <div data-abide-error class="alert callout" style="display: none;">
+      <p><i class="fi-alert"></i> There are some errors in your form.</p>
+    </div>
+    <div class="row">
+      <div class="small-12 medium-6 columns">
+        <label>Your Name
+          <input type="text" placeholder="Name">
+        </label>
+      </div>
+      <div class="small-12 medium-6 columns">
+        <label>Your Surname
+          <input type="text" placeholder="Surname">
+        </label>
+      </div>
+      <div class="small-12 medium-6 columns">
+        <label>Your E-Mail
+          <input type="email" placeholder="mail@example.com" aria-describedby="exampleHelpText" required pattern="mail">
+          <span class="form-error">
+            Yo, you had better fill this out, it's required.
+          </span>
+        </label>
+      </div>
+      <div class="small-12 medium-6 columns">
+        <label>Your Phone Number
+          <input type="tel" placeholder="+4179 960 52 84" aria-describedby="exampleHelpTex" data-abide-ignore>
+        </label>
+      </div>
+      <div class="small-12 columns">
+        <label>Title
+          <input type="text" placeholder="Example Title" aria-describedby="exampleHelpTex">
+        </label>
+      </div>
+      <div class="small-12 columns">
+        <label>Message
+          <textarea rows="8" cols="40" placeholder="Your Message" aria-describedby="exampleHelpTex"></textarea>
+        </label>
+      </div>
+      <fieldset class="large-6 columns right">
+        <button class="button expanded hollow alert" type="submit" value="Submit">Submit</button>
+      </fieldset>
+    </div>
+  </form>
+  <button class="close-button" data-close aria-label="Close reveal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
