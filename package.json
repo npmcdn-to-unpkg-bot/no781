@@ -51,5 +51,8 @@
     "url": "https://github.com/zurb/foundation-sites/issues",
     "email": "foundation@zurb.com"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "gulp-install": "~0.6.0"
+  }
 }

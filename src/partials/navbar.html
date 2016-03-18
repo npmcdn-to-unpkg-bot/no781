@@ -2,13 +2,16 @@
   <div class="title-bar mobile-toggle" data-responsive-toggle="main-menu" data-hide-for="large">
     <button class="" type="button" data-toggle>MENU</button>
   </div>
-  <div class="title-bar" id="main-menu" data-animation-in="slide-in-up" data-sticky data-options="marginTop:0;" style="width:100%">
+  <div class="title-bar sticky" id="main-menu" data-sticky data-options="marginTop:0;" style="width:100%" >
     <div class="title-bar-title"><a href="index.html" class="menu-text">A</a></div>
     <div class="title-bar-right">
       <ul class="menu" data-dropdown-menu>
-        <li><a href="#">Documentary</a></li>
-        <li><a href="#">Fashion</a></li>
-        <li><a href="#">Photoshop</a></li>
+        <li><div id="filters" class="">
+          <button class="filter_button is-checked" data-filter="*">show all</button>
+          <button class="filter_button" data-filter=".doc">Documentary</button>
+          <button class="filter_button" data-filter=".fashion">Fashion</button>
+          <button class="filter_button" data-filter=".ps">Photoshop</button>
+        </li>
         <li><button data-toggle="aboutMeModal">About Me</button></li>
         <!-- MODAL -->
         {{> aboutme}}
